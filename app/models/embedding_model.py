@@ -3,5 +3,5 @@ from dotenv import load_dotenv
 load_dotenv()
 
 model = NVIDIAEmbeddings(
-    model = "nemotron-3-embed-1b",
+    model="nvidia/llama-nemotron-embed-1b-v2"
 )
